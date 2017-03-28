@@ -81,5 +81,6 @@
     <orderEntry type="library" name="Maven: org.sonatype.sisu:sisu-guice:no_aop:3.2.3" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.6.1" level="project" />
   </component>
 </module>
