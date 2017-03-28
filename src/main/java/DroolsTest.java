@@ -6,42 +6,6 @@ import org.kie.api.runtime.KieContainer;
 import com.sample.model.Account;
 import org.kie.api.runtime.KieSession;
 
-/**
- * This is a sample class to launch a rule.
- */
-abstract class AtomicEvent{
-    String getType()
-    {
-        return "";
-    }
-    void SetType()
-    {
-
-    }
-
-}
-abstract class IntervalEvent{
-    String getType()
-    {
-        return "";
-    }
-    void SetType()
-    {
-
-    }
-}
-class WorkEvent extends IntervalEvent{
-
-}
-class DiscussingEvent extends IntervalEvent{
-
-}
-class ExerciseEvent extends IntervalEvent{
-
-}
-
-
-
 public class DroolsTest {
 
     public static final void main(String[] args) {
